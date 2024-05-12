@@ -112,7 +112,7 @@ function AllPoolServices() {
                     <div>
                         <h3 className='text-[17px] font-bold md:text-[18px] py-3 leading-7'> STEP 1 Pool chemical balancing clipboard icon
                             Assessment and Analysis</h3>
-                        <p className='text-[15px] leading-7'>We first inspect your pool to determine its current condition. Our specialists examine everything in detail—the water, the equipment, the problems. We test the water chemistry and inspect the equipment to ensure it works. We also check the pool's structure for anything that needs to be fixed. It&apos;s all about improving your pool and keeping it in top shape.
+                        <p className='text-[15px] leading-7'>We first inspect your pool to determine its current condition. Our specialists examine everything in detail—the water, the equipment, the problems. We test the water chemistry and inspect the equipment to ensure it works. We also check the pool&apos;s structure for anything that needs to be fixed. It&apos;s all about improving your pool and keeping it in top shape.
                         </p>
                     </div>
                     <div>
