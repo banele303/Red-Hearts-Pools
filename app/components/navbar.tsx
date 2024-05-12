@@ -46,31 +46,31 @@ const Navbar = () => {
                                 </li>
 
                                 <li className="md:ml-3 py-3 px-2 border-5 border-sky-900  text-[19px] font-Poppins cursor-pointer text-white font-bold">
-                                    <Link href="/painting-services">Painting</Link>
+                                    <Link href="/painting-services">About Us</Link>
                                 </li>
                                 <li className="md:ml-3 py-3 px-2 border-5 border-sky-900  text-[19px] font-Poppins cursor-pointer text-white font-bold">
-                                    <Link href="/cabinet-refacing">Home Remodeling</Link>
+                                    <Link href="/cabinet-refacing">Services</Link>
                                 </li>
                                 <li className="md:ml-3 py-3 px-2  border-5 border-sky-900 cursor-pointer text-[19px] font-Poppins text-white font-bold">
-                                    <Link href="/bathroom-remodeling">Bathroom Renovation</Link>
+                                    <Link href="/bathroom-remodeling">Contact</Link>
                                 </li>
                             </ul>
                             <button
                                 type="button"
                                 className={`px-6  mx-[1rem]  font-poppins bg-blue-900   text-[14px]  md:text-[15px] border-none rounded-[3rem]  text-white   hover:scale-[1.1] transition-all duration-75 font-bold  font-Poppins`}
                             >
-                                <Link href="/contact-us">  + 27 81 375 3372</Link>
+                                <Link href="/">  + 27 72455 6589</Link>
                             </button>
                         </div>
                         <div className="md:hidden mr-4" onClick={handleClick}>
                             {!nav ? (
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-white">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                                 </svg>
 
 
                             ) : (
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-white">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                                 </svg>
 
@@ -89,13 +89,13 @@ const Navbar = () => {
                             <Link href="/">Home</Link>
                         </li>
                         <li className=" md:ml-3 py-3 px-6 font-Poppins border-5 border-sky-900 cursor-pointer text-white font-bold">
-                            <Link href="/painting-services">Painting</Link>
+                            <Link href="/">About US</Link>
                         </li>
                         <li className="md:ml-3 py-3 px-6 border-5 border-sky-900  text-[19px] font-Poppins cursor-pointer text-white font-bold">
-                        <Link href="/cabinet-refacing">Home Remodeling</Link>
+                        <Link href="/cabinet-refacing">Services</Link>
                         </li>
                         <li className="md:ml-3 py-3 px-6 font-Poppins border-5 border-sky-900 cursor-pointer text-white font-bold">
-                        <Link href="/bathroom-remodeling">Bathroom Renovation</Link>
+                        <Link href="/bathroom-remodeling">Contact</Link>
                         </li>
                        
 

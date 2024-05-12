@@ -4,6 +4,7 @@ import HomeHero from "./components/home-hero";
 import Footer from "./components/footer";
 import AllPoolServices from "./components/all-poolservices";
 import { ResidentialandCommecial } from "./components/residential-cleaning";
+import CallToAction from "./components/call-toaction";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
 <div>
   <Navbar/>
   <HomeHero/>
+  <CallToAction/>
   <AllPoolServices/>
   <ResidentialandCommecial/>
   <Footer/>

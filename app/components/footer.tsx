@@ -7,27 +7,27 @@ export default function Footer() {
         <div className="dark:bg-white bg-black  dark:bg-dot-black/[0.2] bg-dot-white/[0.2] ">
             <footer className="footer p-10 grid grid-cols-1 md:grid-cols-4 gap-5">
                 <aside className="flex flex-row gap-[-1rem]">
-                    <div className="md:mt-[-2rem] pr-[-2rem]"> White Wash</div>
+                    <div className="md:mt-[-2rem] "> <p className="text-slate-200 mt-1">Red Hearts Pools<br />Providing reliable Remodeling Services</p>
+                 </div>
                
-                    <p className="text-slate-200 mt-1">White Wash<br />Providing reliable Remodeling Services</p>
-                
+                   
                
                 </aside>
                 <nav className="flex flex-col">
-                    <h6 className="footer-title text-semibold text-slate-200 text-[17px] ">White Wash Renovations</h6>
+                    <h6 className="footer-title text-semibold text-slate-200 text-[17px] ">Red Hearts Pools</h6>
                     
                     <p className="link link-hover text-slate-400"><Link href="/">Home</Link> </p>
-                    <p className="link link-hover text-slate-400"><Link href="/about-us">Painting Services</Link> </p>
-                    <p className="link link-hover text-slate-400"><Link href="/our-plumbing-services">Home remodeling</Link> </p>
-                    <p className="link link-hover text-slate-400"><Link href="/about-us">Bathroom Remodeling</Link> </p>
+                    <p className="link link-hover text-slate-400"><Link href="/">Pool Cleaning</Link> </p>
+                    <p className="link link-hover text-slate-400"><Link href="/">Pool Maintananance</Link> </p>
+                    <p className="link link-hover text-slate-400"><Link href="/">All Pool Services</Link> </p>
                   
                 </nav>
                 <nav>
-                    <h6 className="footer-title  text-slate-200 text-[19px]">Painting Services</h6>
-                    <p className="link link-hover text-slate-400"><Link href="/our-plumbing-services">Interior Painting</Link> </p>
-                    <p className="link link-hover text-slate-400"><Link href="/about-us">Exterior Painting</Link> </p>
-                    <p className="link link-hover text-slate-400"><Link href="/about-us">Wall Painting</Link> </p>
-                    <p className="link link-hover text-slate-400"><Link href="/our-plumbing-services">Roof Painting</Link> </p>
+                    <h6 className="footer-title  text-slate-200 text-[19px]">Pool Remodeling</h6>
+                    <p className="link link-hover text-slate-400"><Link href="/">Decking</Link> </p>
+                    <p className="link link-hover text-slate-400"><Link href="/">Construction</Link> </p>
+                    <p className="link link-hover text-slate-400"><Link href="/">Repair and Installation</Link> </p>
+                    <p className="link link-hover text-slate-400"><Link href="/">Other</Link> </p>
                   
                 </nav>
                 <nav>
